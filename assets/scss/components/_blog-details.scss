@@ -207,8 +207,26 @@
 				font-size: 16px;
 				line-height: 30px;
 				&:not(:last-child) {
-					margin-bottom: 25px;
+					margin-bottom: 20px;
 				}
+				text-align: justify;
+			}
+			.text-content {
+				span {
+					color: red;
+					font-weight: 600;
+				}
+			}
+			.p-text-group {
+				span {
+					font-weight: 600 !important;
+					// color: black;
+				}
+			}
+			.des-photo {
+				font-size: 13px !important;
+				text-align: center;
+				display: block;
 			}
 			blockquote {
 				padding: 0px 70px;

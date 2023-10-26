@@ -45,7 +45,6 @@
     </div>
     <!--====== HEADER END ======-->
 
-    <!--====== HEADER START ======-->
     <header class="sotcox-header pt-50 pb-50" data-uk-sticky="top: 250; animation: uk-animation-slide-top;">
         <div class="container-fluid sotcox-container__fluid">
             <div class="row">
@@ -102,7 +101,6 @@
             </div>
         </div>
     </header>
-    <!--====== HEADER END ======-->
 
     <!--====== OVERLAY START ======-->
     <div class="sotcox-overlay"></div>
@@ -122,6 +120,76 @@
     <!--====== SEARCH POPUP END ======-->
 
     <!--====== SIDE INFO FOR MOBILE START ======-->
+    <aside class="side-info-wrapper mm-only">
+        <nav>
+            <div class="nav" id="nav-tab" role="tablist">
+                <a class="nav-link active" id="menu-tab-1-tab" data-bs-toggle="tab" href="#menu-tab-1" role="tab"
+                    aria-controls="menu-tab-1" aria-selected="true">Menu</a>
+                <a class="nav-link" id="menu-tab-2-tab" data-bs-toggle="tab" href="#menu-tab-2" role="tab"
+                    aria-controls="menu-tab-2" aria-selected="false">Info</a>
+            </div>
+        </nav>
+        <div class="side-info__wrapper d-flex align-items-center justify-content-between">
+            <div class="side-info__logo">
+                <a href="index.html">
+                    <img src="assets/img/logo/logo.png" alt="logo">
+                </a>
+            </div>
+            <div class="side-info__close">
+                <a href="javascript:void(0);"><i class="far fa-times"></i></a>
+            </div>
+        </div>
+        <div class="tab-content" id="nav-tabContent">
+            <div class="tab-pane fade show active" id="menu-tab-1" role="tabpanel" aria-labelledby="menu-tab-1-tab">
+                <div class="search-box">
+                    <form class="search-widget sotcox-input-field position-relative" action="blog.html" method="get">
+                        <div>
+                            <input type="search" value="" required="" name="s" placeholder="Search...">
+                            <button type="submit"><i class="far fa-search"></i></button>
+                        </div>
+                    </form>
+                </div>
+                <div class="sotcox-mobile-menu"></div>
+            </div>
+            <div class="tab-pane fade" id="menu-tab-2" role="tabpanel" aria-labelledby="menu-tab-2-tab">
+                <div class="side-info">
+                    <div class="side-info__content mb-35">
+                        <h4 class="title mb-10">About us</h4>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut
+                            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud nisi ut aliquip ex ea
+                            commodo consequat.</p>
+                        <a class="sotcox-btn sotcox-btn__small mt-20" href="contact.html">Contact us <span></span></a>
+                    </div>
+                    <div class="contact__info--wrapper mt-15">
+                        <h4 class="title mb-15">Contact us</h4>
+                        <ul class="contact__info list-unstyled">
+                            <li>
+                                <span><i class="fas fa-map-marker-alt"></i></span>
+                                <p>Bowery St., New York, NY 10013, USA</p>
+                            </li>
+                            <li>
+                                <span><i class="fas fa-phone"></i></span>
+                                <p>+1255-568-6523</p>
+                            </li>
+                            <li>
+                                <span><i class="fas fa-envelope-open-text"></i></span>
+                                <p>information@gmail.com</p>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="sotcox-social-links mt-30">
+                        <a href="#0"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#0"><i class="fab fa-twitter"></i></a>
+                        <a href="#0"><i class="fab fa-google-plus-g"></i></a>
+                        <a href="#0"><i class="fab fa-instagram"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </aside>
+    <!--====== SIDE INFO FOR MOBILE END ======-->
+
+    <!--====== SIDE INFO FOR DESKTOP START ======-->
     <aside class="side-info-wrapper mm-only">
         <nav>
             <div class="nav" id="nav-tab" role="tablist">
@@ -187,9 +255,6 @@
             </div>
         </div>
     </aside>
-    <!--====== SIDE INFO FOR MOBILE END ======-->
-
-    <!--====== SIDE INFO FOR DESKTOP START ======-->
     <aside class="side-info-wrapper show-all">
         <div class="side-info__wrapper d-flex align-items-center justify-content-between">
             <div class="side-info__logo">
@@ -204,9 +269,9 @@
         <div class="side-info">
             <div class="side-info__content mb-35">
                 <h4 class="title mb-10">About us</h4>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore
-                    et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud nisi ut aliquip ex ea commodo
-                    consequat.</p>
+                <p>WE ARE NK SOFTWARE (formerly A&T Asia Technology), one of the leading technology companies based in
+                    Vietnam. We specialize in providing software solutions for businesses to leverage the opportunities
+                    in the Industry 4.0 era.</p>
                 <a class="sotcox-btn sotcox-btn__small mt-20" href="contact.html">Contact us <span></span></a>
             </div>
             <div class="contact__info--wrapper mt-15">
@@ -214,21 +279,21 @@
                 <ul class="contact__info list-unstyled">
                     <li>
                         <span><i class="fas fa-map-marker-alt"></i></span>
-                        <p>Bowery St., New York, NY 10013, USA</p>
+                        <p>Le Building, No 342, My Dinh Street, Nam Tu Liem District, Hanoi, Vietnam</p>
                     </li>
                     <li>
                         <span><i class="fas fa-phone"></i></span>
-                        <p>+1255-568-6523</p>
+                        <p>+84-902-257-381</p>
                     </li>
                     <li>
                         <span><i class="fas fa-envelope-open-text"></i></span>
-                        <p>information@gmail.com</p>
+                        <p><a href="mailto:info@nk-software.net">info@nk-software.net</a></p>
                     </li>
                 </ul>
             </div>
             <div class="sotcox-social-links mt-30">
                 <a href="https://www.facebook.com/NKSoftwarenet"><i class="fab fa-facebook-f"></i></a>
-                <a href="https://www.linkedin.com/company/nk-software-net/"><i class="fab fa-linkedin-in"></i></a>
+                <a href="https://www.linkedin.com/company/nk-software-net"><i class="fab fa-linkedin"></i></a>
             </div>
         </div>
     </aside>
@@ -244,20 +309,20 @@
             <div class="row">
                 <div class="col-xl-12">
                     <div class="sotcox-breadcrumb-wrapper position-relative pt-190 pb-190">
-                        <h2 class="page-title">Blog </h2>
+                        <h2 class="page-title">Exploring Vietnam's IT Talent: Unveiling the Remarkable Potential of Vietnam's IT Workforce</h2>
                         <div class="sotcox-breadcrumb breadcrumbs">
                             <ul class="list-unstyled d-flex align-items-center">
                                 <li class="sotcox-item duxinbcrumb-begin">
                                     <a href="index.html"><span>Home Page</span></a>
                                 </li>
                                 <li class="sotcox-item duxinbcrumb-end">
-                                    <span>Blog </span>
+                                    <span class="border-effect">Exploring Vietnam's IT Talent: Unveiling the Remarkable Potential of Vietnam's IT Workforce</span>
                                 </li>
                             </ul>
                         </div>
-                        <div class="right-img">
-                            <img src="assets/img/blog/main-blog.jpg" alt="">
-                        </div>
+                        <!-- <div class="right-img">
+                            <img src="assets/img/bg/breadcrumb-bg.png" alt="">
+                        </div> -->
                     </div>
                 </div>
             </div>
@@ -270,182 +335,248 @@
         <div class="container">
             <div class="row">
                 <div class="col-xl-8">
-                    <div class="blog__wrapper mt-none-75 pr-25">
-                        <article class="sotcox-post-box sotcox-onhover-zoom format format-image mt-70 main-img-blog">
-                            <div class="thumb mb-40">
-                                <a href="#0" class="img">
-                                    <img src="assets/img/blog/fast-moving-world.jpg" alt="img">
-                                </a>
-                            </div>
-                            <div class="content">
-                                <ul class="meta-info list-unstyled d-flex align-items-center">
-                                    <!-- <li><a href="blog-details.html"><i class="far fa-user"></i> Sotcox</a></li> -->
-                                    <li><a href="why-should-build-your-offshore-development-center-in-vietnam.html"><i
-                                                class="far fa-calendar-alt"></i> October 25, 2023</a></li>
-                                    <!-- <li><a href="blog-details.html"><i class="far fa-comment"></i> 05</a></li> -->
-                                    <!-- <li><a href="blog-details.html"><i class="far fa-eye"></i> 1,526 views</a></li> -->
-                                </ul>
-
-                                <h2 class="title border-effect">
-                                    <a href="why-should-build-your-offshore-development-center-in-vietnam.html">Why
-                                        Should Build Your Offshore Development Center in Vietnam?</a>
-                                </h2>
-
-                                <div class="post-excerpt mt-25">
-                                    <p>In today's dynamic business landscape, harnessing global resources is key to
-                                        staying competitive and agile. Vietnam, with its vibrant tech ecosystem and
-                                        exceptional talent pool, offers an enticing destination for foreign companies to
-                                        set up their offshore development centers.
+                    <div class="blog__wrapper blog__wrapper--prev blog__wrapper--single pr-25">
+                        <article class="sotcox-post-box sotcox-post-box__details format format-image">
+                            <!-- <div class="thumb mb-40">
+                                <img src="assets/img/blog/blog-3-1.jpg" alt="">
+                            </div> -->
+                            <ul class="meta-info list-unstyled d-flex align-items-center">
+                                <!-- <li><a href="blog-details.html"><i class="far fa-user"></i> Sotcox</a></li> -->
+                                <li><a href="blog-details.html"><i class="far fa-calendar-alt"></i> October 25, 2023</a>
+                                </li>
+                                <!-- <li><a href="blog-details.html"><i class="far fa-comment"></i> 05</a></li> -->
+                                <!-- <li><a href="blog-details.html"><i class="far fa-eye"></i> 1,526 views</a></li> -->
+                            </ul>
+                            <div class="post-excerpt post-details-content mt-35">
+                                <h4 class="sotcox-title mb-10">Exploring Vietnam's IT Talent: Unveiling the Remarkable
+                                    Potential of Vietnam's IT Workforce</h4>
+                                <p> In the dynamic tech world, Vietnam stands out as a formidable player on the global
+                                    stage. With a burgeoning IT workforce, a proven track record, and a compelling value
+                                    proposition, this Southeast Asian nation has become a go-to destination for
+                                    businesses seeking to harness IT talent.
+                                </p>
+                                <p>Today, let us tell you about the distinctive traits of the Vietnamese IT labor force:
+                                </p>
+                                <div class="thumb mb-40">
+                                    <img src="assets/img/blog/explore-1.png" alt="">
+                                    <p class="text-center text-small">Photo: A fast-moving world</p>
+                                </div>
+                                <div class="p-text-group">
+                                    <p> <span class="mr-40">•</span><span>Young and Skilled:</span> Recent studies by DxReports reveal
+                                        Vietnam's impressive IT
+                                        landscape: nearly <span>400,000 IT engineers</span> and <span>50,000+ graduates</span> from <span>153 tech
+                                            institutions</span> every year. Vietnam excels with a youthful workforce, <span>69% of the
+                                                population in the working-age bracket</span>, which is a significant advantage for
+                                        businesses. These figures underline the vast talent pool available to businesses
+                                        seeking cutting-edge IT solutions. </p>
+                                    <p> <span class="mr-40">•</span><span>Hardworking and Result-Oriented: </span>Vietnam, risen from the
+                                        ruins of war to emerging today, has a tradition of hard work and dedication. This
+                                        ethic is reflected in the tech industry's success: Vietnam consistently ranks high
+                                        in Tholons Global Services Index, with Ho Chi Minh City and Hanoi in the <span>top 20</span> of
+                                        the 'Top 100 Outsourcing Destinations' list in 2019. With rapid <span>annual growth of
+                                            25-35%</span>, Vietnam hosts <span>30,000+</span> companies, including major MNCs such as Intel, IBM,
+                                        and Samsung.</p>
+                                    <p> <span class="mr-40">•</span><span>Active and Adaptable: <br></span>
+                                        <span>Prince William, Duke of Cambridge</span>, has talked about Vietnam’s progess in the last 20
+                                        years: “It’s amazing, the development and the change, the progression, the
+                                        modernisation that has gone on in the last 20 years, business wise particularly, it
+                                        is very impressive.” </p>
+                                    <p>This progress is driven by Vietnam's proactive and dedicated workforce, always
+                                        striving for self-improvement and innovation. The Vietnamese IT engineer’s
+                                        adaptability and continuous pursuit of growth keep them ahead in the dynamic tech
+                                        world, positioning the nation alongside global leaders in the tech industry.</p>
+                                    <p> <span class="mr-40 ">•</span><span>Good Language Proficiency:</span> Vietnam's
+                                        English proficiency, ranked seventh in Asia by Education First's EF English
+                                        Proficiency Index (EPI), facilitates international collaboration and drives business
+                                        growth. This proficiency is evidenced by the rise in Foreign Direct Investment,
+                                        reaching <span>over 15.9 billion USD</span> in the first nine months of 2023, a <span>4.5% increase</span> 
+                                        compared to the same period in 2022.
                                     </p>
                                 </div>
-                                <a href="why-should-build-your-offshore-development-center-in-vietnam.html"
-                                    class="sotcox-inline-btn mt-20">READ MORE
-                                    <span class="icon">
-                                        <i class="far fa-arrow-right"></i>
-                                        <i class="far fa-arrow-right"></i>
-                                    </span>
-                                </a>
+                                <div class="thumb mb-40 mt-40">
+                                    <img src="assets/img/blog/explore-2.jpg" alt="">
+                                </div>
+                                <h4 class="sotcox-title mb-10">So, what’s the conclusion?</h4>
+                                <p>Vietnam's IT workforce offers a winning combination of cost-effectiveness, expertise,
+                                    adaptability, and quality. Businesses partnering with Vietnamese IT talents are
+                                    investing in their future success. Whether you're a startup or a multinational
+                                    corporation, this collaboration ensures a competitive edge in the fast-paced digital
+                                    world.</p>
+                                <p>Are you ready to transform your business with Vietnam's best IT talents? NK Software
+                                    currently possesses young and talented workforce in the IT field. Our team has years
+                                    of experience working on over 50 international projects. Contact us today and start
+                                    your transformative IT journey.</p>
                             </div>
                         </article>
-                        <hr>
-                        <article class="sotcox-post-box sotcox-onhover-zoom format format-image mt-70 main-img-blog">
-                            <div class="thumb mb-40">
-                                <a href="#0" class="img">
-                                    <img src="assets/img/blog/explore-1.png" alt="img">
-                                </a>
+
+                        <!-- <div class="post-author post-author__wrapper mt-50">
+                            <div class="post-author__thumb">
+                                <img src="assets/img/blog/author-3.png" alt="img">
                             </div>
-                            <div class="content">
-                                <ul class="meta-info list-unstyled d-flex align-items-center">
-                                    <!-- <li><a href="blog-details.html"><i class="far fa-user"></i> Sotcox</a></li> -->
-                                    <li><a href="exploring-vietnam-it-tailent.html"><i
-                                                class="far fa-calendar-alt"></i> October 25, 2023</a></li>
-                                    <!-- <li><a href="blog-details.html"><i class="far fa-comment"></i> 05</a></li> -->
-                                    <!-- <li><a href="blog-details.html"><i class="far fa-eye"></i> 1,526 views</a></li> -->
+                            <div class="post-author__content">
+                                <h4 class="name">About Michael</h4>
+                                <p>Supported substance consolidates parts of web based promoting and substance showcasing. It includes making substance, for example.</p>
+                                <div class="sotcox-social-links">
+                                    <a href="#0"><i class="fab fa-facebook-f"></i></a>
+                                    <a href="#0"><i class="fab fa-twitter"></i></a>
+                                    <a href="#0"><i class="fab fa-linkedin-in"></i></a>
+                                </div>
+                            </div>
+                        </div> -->
+                        <!-- 
+                        <div class="sotcox-next-prev-wrapper mt-50">
+                            <a href="blog-details.html" class="sotcox-next-prev sotcox-next-prev__prev">
+                                <span class="icon"><i class="far fa-arrow-left"></i></span><span class="text">Previous</span>
+                            </a>
+                            <a href="blog-details.html" class="sotcox-next-prev sotcox-next-prev__next">
+                                <span class="text">Next</span><span class="icon"><i class="far fa-arrow-right"></i></span>
+                            </a>
+                        </div> -->
+
+
+                        <!-- <div class="stocox-related-posts mt-80">
+                            <h5 class="sotcox-title mb-35">Related posts </h5>
+                            <div class="row mt-none-30">
+                                <div class="col-xl-6 col-lg-6 mt-30">
+                                    <div class="sotcox-article-item">
+                                        <div class="thumb mb-35">
+                                            <img src="assets/img/blog/blog-1.jpg" alt="">
+                                        </div>
+                                        <div class="content">
+                                            <div class="meta-info">
+                                                <span class="date">September 28,2022</span>
+                                                <span class="author">By <strong>Admin</strong></span>
+                                            </div>
+                                            <h5 class="title border-effect"><a href="blog-details.html">Create Live Segments & Target The Right People..</a></h5>
+                                            <div class="article-cats">
+                                                <a href="#">Business Consulting</a>
+                                                <a href="#">IT Solution</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-xl-6 col-lg-6 mt-30">
+                                    <div class="sotcox-article-item">
+                                        <div class="thumb mb-35">
+                                            <img src="assets/img/blog/blog-2.jpg" alt="">
+                                        </div>
+                                        <div class="content">
+                                            <div class="meta-info">
+                                                <span class="date">September 28,2022</span>
+                                                <span class="author">By <strong>Admin</strong></span>
+                                            </div>
+                                            <h5 class="title border-effect"><a href="blog-details.html">Keep Your Business Safe Ensure High Availability..</a></h5>
+                                            <div class="article-cats">
+                                                <a href="#">Business Consulting</a>
+                                                <a href="#">IT Solution</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="post-comments mt-80">
+                            <div class="comment-title-wrapper">
+                                <h5 class="sotcox-title">Comments (02)</h5>
+                            </div>
+                            <div class="latest__comments">
+                                <ul class="list-unstyled mb-0">
+                                    <li>
+                                        <div class="sotcox-comment-box">
+                                            <div class="comment-avatar">
+                                                <img src="assets/img/blog/author-1.png" alt="img">
+                                            </div>
+                                            <div class="comment-text">
+                                                <div class="mb-10 position-relative">
+                                                    <h5 class="avatar-name">
+                                                        <a href="#0" rel="external nofollow ugc" class="url">by Benjamin /</a>
+                                                        <span class="date"> September 13, 2022</span>
+                                                    </h5>
+                                                </div>
+                                                <div class="comment-desc">
+                                                    <p>Many UX designers, developers, and entrepreneurs take pride in how hard it was to solve hard challenges. I don’t. I hope to convince you not to either.  </p>
+                                                    <div class="bottom">
+                                                        <span>Like</span>
+                                                        <a href="#0" class="comment-reply-link">Reply</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <ul>
+                                            <li>
+                                                <div class="sotcox-comment-box">
+                                                    <div class="comment-avatar">
+                                                        <img src="assets/img/blog/author-2.png" alt="img">
+                                                    </div>
+                                                    <div class="comment-text">
+                                                        <div class="mb-10 position-relative">
+                                                            <h5 class="avatar-name">
+                                                                <a href="#0" rel="external nofollow ugc" class="url">by Thomas /</a>
+                                                                <span class="date"> September 30, 2022</span>
+                                                            </h5>
+                                                        </div>
+                                                        <div class="comment-desc">
+                                                            <p>User management (link to UI): Use this to add users, update user type, manage what groups a user is assigned, and approve user upgrade requests.</p>
+                                                            <div class="bottom">
+                                                                <span>Like</span>
+                                                                <a href="#0" class="comment-reply-link">Reply</a>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </li>
+                                        </ul>
+                                    </li>
                                 </ul>
-
-                                <h2 class="title border-effect">
-                                    <a href="exploring-vietnam-it-tailent.html">Exploring
-                                        Vietnam's IT Talent: Unveiling the Remarkable Potential of Vietnam's IT
-                                        Workforce</a>
-                                </h2>
-
-                                <div class="post-excerpt mt-25">
-                                    <p>In the dynamic tech world, Vietnam stands out as a formidable player on the
-                                        global stage. With a burgeoning IT workforce, a proven track record, and a
-                                        compelling value proposition, this Southeast Asian nation has become a go-to
-                                        destination for businesses seeking to harness IT talent.</p>
-                                </div>
-                                <a href="exploring-vietnam-it-tailent.html"
-                                    class="sotcox-inline-btn mt-20">READ MORE
-                                    <span class="icon">
-                                        <i class="far fa-arrow-right"></i>
-                                        <i class="far fa-arrow-right"></i>
-                                    </span>
-                                </a>
                             </div>
-                        </article>
-                        <!-- <article class="sotcox-post-box sotcox-onhover-zoom format format-video mt-70">
-                            <div class="thumb mb-40">
-                                <img src="assets/img/blog/blog-3-2.jpg" alt="img">
-                                <a class="sotcox-video-btn" data-rel="lightcase" href="https://www.youtube.com/embed/4xe72U7mXNg?rel=0&controls=0&showinfo=0"><i class="fas fa-play"></i></a>
-                            </div>
-                            <div class="content">
-                                <ul class="meta-info list-unstyled d-flex align-items-center">
-                                    <li><a href="blog-details.html"><i class="far fa-user"></i> Sotcox</a></li>
-                                    <li><a href="blog-details.html"><i class="far fa-calendar-alt"></i> october 28,2022</a></li>
-                                    <li><a href="blog-details.html"><i class="far fa-comment"></i> 05</a></li>
-                                    <li><a href="blog-details.html"><i class="far fa-eye"></i> 1,526 views</a></li>
-                                </ul>
+                        </div>
 
-                                <h2 class="title border-effect">
-                                    <a href="blog-details.html">What’s holding the IT solution industry?</a>
-                                </h2>
+                        <div class="sotcox-commentform-wrapper not-logged mt-100">
+                            <div class="comment-respond">
+                                <h5 class="sotcox-title">Leave a Reply</h5>
+                                <p>Your email address will not be published. Required fields are marked * </p>
 
-                                <div class="post-excerpt mt-25">
-                                    <p>Along with the deep knowledge of software architecting and coding principles, we have accumulated vast domain experience and understanding of the context, in which software operates. We develop web, mobile, desktop, and cloud applications as well as SaaS products for the following use cases.</p>
-                                </div>
-                                <a href="blog-details.html" class="sotcox-inline-btn mt-20">READ MORE
-                                    <span class="icon">
-                                        <i class="far fa-arrow-right"></i>
-                                        <i class="far fa-arrow-right"></i>
-                                    </span>
-                                </a>
+                                <form action="index.html" method="get" class="comment-form mt-25">
+                                    <div class="row">
+                                        <div class="col-xl-6">
+                                            <div class="sotcox-input-field mb-20">
+                                                <label for="author">Your Name *</label>
+                                                <input id="author" type="text" name="author" placeholder="Your name...">
+                                            </div>
+                                        </div>
+                                        <div class="col-xl-6">
+                                            <div class="sotcox-input-field mb-20">
+                                                <label for="mail">Your Email *</label>
+                                                <input id="mail" type="text" name="mail" placeholder="Your mail...">
+                                            </div>
+                                        </div>
+                                        <div class="col-xl-12 comment-from-right">
+                                            <div class="sotcox-input-field mb-20">
+                                                <label for="website">Website</label>
+                                                <input id="website" type="text" name="website" placeholder="Your Website...">
+                                            </div>
+                                        </div>
+                                        <div class="col-xl-12">
+                                            <div class="sotcox-input-field mb-20">
+                                                <label for="message">Message *</label>
+                                                <textarea id="message" name="message" cols="60" rows="6" placeholder="Type your comments..." aria-required="true" spellcheck="false"></textarea>
+                                            </div>
+                                        </div>
+                                        <div class="col-xl-12 submit-button not-logged">
+                                            <button class="sotcox-btn" type="submit">Post Comment <span></span></button>
+                                        </div>
+                                    </div>
+                                </form>
                             </div>
-                        </article> -->
-                        <!-- <article class="sotcox-post-box format format-gallery mt-70">
-                            <div class="owl-carousel mb-40" data-sotcox-post-gallery>
-                                <div class="thumb">
-                                    <img src="assets/img/blog/blog-3-3.jpg" alt="img">
-                                </div>
-                                <div class="thumb">
-                                    <img src="assets/img/blog/blog-3-1.jpg" alt="img">
-                                </div>
-                            </div>
-                            <div class="content">
-                                <ul class="meta-info list-unstyled d-flex align-items-center">
-                                    <li><a href="blog-details.html"><i class="far fa-user"></i> Sotcox</a></li>
-                                    <li><a href="blog-details.html"><i class="far fa-calendar-alt"></i> october 28,2022</a></li>
-                                    <li><a href="blog-details.html"><i class="far fa-comment"></i> 05</a></li>
-                                    <li><a href="blog-details.html"><i class="far fa-eye"></i> 1,526 views</a></li>
-                                </ul>
-
-                                <h2 class="title border-effect">
-                                    <a href="blog-details.html">What’s holding the IT solution industry?</a>
-                                </h2>
-
-                                <div class="post-excerpt mt-25">
-                                    <p>Along with the deep knowledge of software architecting and coding principles, we have accumulated vast domain experience and understanding of the context, in which software operates. We develop web, mobile, desktop, and cloud applications as well as SaaS products for the following use cases.</p>
-                                </div>
-                                <a href="blog-details.html" class="sotcox-inline-btn mt-20">READ MORE
-                                    <span class="icon">
-                                        <i class="far fa-arrow-right"></i>
-                                        <i class="far fa-arrow-right"></i>
-                                    </span>
-                                </a>
-                            </div>
-                        </article>
-                        <article class="sotcox-post-box format format-audio mt-70">
-                            <div class="postbox__audio embed-responsive mb-35">
-                                <iframe src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/469608615&amp;color=%23ff0000&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false&amp;show_teaser=true&amp;visual=true"></iframe>
-                            </div>
-                            <div class="content">
-                                <ul class="meta-info list-unstyled d-flex align-items-center">
-                                    <li><a href="blog-details.html"><i class="far fa-user"></i> Sotcox</a></li>
-                                    <li><a href="blog-details.html"><i class="far fa-calendar-alt"></i> october 28,2022</a></li>
-                                    <li><a href="blog-details.html"><i class="far fa-comment"></i> 05</a></li>
-                                    <li><a href="blog-details.html"><i class="far fa-eye"></i> 1,526 views</a></li>
-                                </ul>
-
-                                <h2 class="title border-effect">
-                                    <a href="blog-details.html">What’s holding the IT solution industry?</a>
-                                </h2>
-
-                                <div class="post-excerpt mt-25">
-                                    <p>Along with the deep knowledge of software architecting and coding principles, we have accumulated vast domain experience and understanding of the context, in which software operates. We develop web, mobile, desktop, and cloud applications as well as SaaS products for the following use cases.</p>
-                                </div>
-                                <a href="blog-details.html" class="sotcox-inline-btn mt-20">READ MORE
-                                    <span class="icon">
-                                        <i class="far fa-arrow-right"></i>
-                                        <i class="far fa-arrow-right"></i>
-                                    </span>
-                                </a>
-                            </div>
-                        </article> -->
+                        </div> -->
                     </div>
-                    <!-- <div class="sotcox-pagination mt-70">
-                        <ul>
-                            <li><a href="#0"><i class="far fa-arrow-left"></i></a></li>
-                            <li><a href="#0">1</a></li>
-                            <li><a href="#0" class="current">2</a></li>
-                            <li><a href="#0">3</a></li>
-                            <li><a href="#0">...</a></li>
-                            <li><a href="#0"><i class="far fa-arrow-right"></i></a></li>
-                        </ul>
-                    </div> -->
                 </div>
                 <div class="col-xl-4">
-                    <div class="blog_sidebar mt-none-60">
-                        <!-- <div class="blog_widget widget mt-60 widget_search">
+                    <!-- <div class="blog_sidebar mt-none-60">
+                        <div class="blog_widget widget mt-60 widget_search">
                             <h2 class="blog-widget-title sotcox-title-uppercase">Search Here</h2>
                             <form class="search-widget" action="blog.html" method="get">
                                 <div>
@@ -453,8 +584,8 @@
                                     <button type="submit"><i class="far fa-search"></i></button>
                                 </div>
                             </form>
-                        </div> -->
-                        <!-- <div class="blog_widget widget mt-60 widget_categories">
+                        </div>
+                        <div class="blog_widget widget mt-60 widget_categories">
                             <h2 class="blog-widget-title sotcox-title-uppercase">Categories</h2>
                             <ul class="list-unstyled">
                                 <li class="cat-item"><a href="#0">Web Design</a><span class="count">03</span></li>
@@ -464,8 +595,8 @@
                                 <li class="cat-item"><a href="#0">Branding Design</a><span class="count">02</span></li>
                                 <li class="cat-item"><a href="#0">Digital Services</a><span class="count">26</span></li>
                             </ul>
-                        </div> -->
-                        <!-- <div class="blog_widget widget mt-60 widget_tc-latest-posts">
+                        </div>
+                        <div class="blog_widget widget mt-60 widget_tc-latest-posts">
                             <h2 class="blog-widget-title sotcox-title-uppercase">Popular Feeds</h2>
                             <div class="sotcox-popular-feeds">
                                 <div class="item d-flex">
@@ -508,8 +639,8 @@
                                     </div>
                                 </div>
                             </div>
-                        </div> -->
-                        <!-- <div class="blog_widget widget mt-60">
+                        </div>
+                        <div class="blog_widget widget mt-60">
                             <h2 class="blog-widget-title sotcox-title-uppercase">Our Instagram </h2>
                             <div class="sotcox-insta-posts">
                                 <div class="item">
@@ -537,8 +668,8 @@
                                     <a href="assets/img/blog/insta/insta-1.jpg" data-rel="lightcase" class="sotcox-zoom-btn">+</a>
                                 </div>
                             </div>
-                        </div> -->
-                        <!-- <div class="blog_widget widget mt-60 widget_tag_cloud">
+                        </div>
+                        <div class="blog_widget widget mt-60 widget_tag_cloud">
                             <h2 class="blog-widget-title sotcox-title-uppercase">Tags</h2>
                             <div class="tagcloud">
                                 <a href="#0">landing</a>
@@ -553,23 +684,27 @@
                                 <a href="#0">data</a>
                             </div>
                         </div> -->
-                        <div class="blog_widget widget mt-40">
-                            <h2 class="blog-widget-title sotcox-title-uppercase">Follow Us</h2>
-                            <div class="sotcox-social-links">
-                                <a href="https://www.facebook.com/NKSoftwarenet"><i class="fab fa-facebook-f"></i></a>
-                                <!-- <a href="#0"><i class="fab fa-twitter"></i></a> -->
-                                <a href="https://www.linkedin.com/company/nk-software-net/"><i class="fab fa-linkedin-in"></i></a>
-                                <!-- <a href="#0"><i class="fab fa-instagram"></i></a> -->
-                            </div>
-                            <div class="sotcox-devider mt-40"></div>
-                            <a href="contact.html" class="sotcox-btn mt-40">get in touch <span></span></a>
+                    <div class="blog_widget widget mt-40">
+                        <h2 class="blog-widget-title sotcox-title-uppercase">Follow Us</h2>
+                        <div class="sotcox-social-links">
+                            <a href="https://www.facebook.com/NKSoftwarenet"><i class="fab fa-facebook-f"></i></a>
+                            <!-- <a href="#0"><i class="fab fa-twitter"></i></a> -->
+                            <a href="https://www.linkedin.com/company/nk-software-net/"><i class="fab fa-linkedin-in"></i></a>
+                            <!-- <a href="#0"><i class="fab fa-instagram"></i></a> -->
                         </div>
+                        <div class="sotcox-devider mt-40"></div>
+                        <a href="contact.html" class="sotcox-btn mt-40">get in touch <span></span></a>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+    </div>
     <!--====== BLOG SECTION END ======-->
+<!-- 
+    <div class="sotcox-map-section mb-none-120">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d59586.41669132862!2d105.73932209171382!3d21.026641559666103!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x313455d98f306885%3A0x9482a577fd90cad7!2sNK%20Software%20Co%2C.Ltd!5e0!3m2!1svi!2s!4v1685941048795!5m2!1svi!2s" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div> -->
 
     <!--====== NEWSLETTER SECTION START ======-->
     <div class="sotcox-newsletter-section">
@@ -577,16 +712,13 @@
             <div class="row">
                 <div class="col-xl-12">
                     <div class="sotcox-newsletter-wrapper">
-                        <div class="shape shape__1 position-absolute"><img
-                                src="assets/img/shapes/newsletter-shape-1.png" alt=""></div>
-                        <div class="shape shape__2 position-absolute"><img
-                                src="assets/img/shapes/newsletter-shape-2.png" alt=""></div>
+                        <div class="shape shape__1 position-absolute"><img src="assets/img/shapes/newsletter-shape-1.png" alt=""></div>
+                        <div class="shape shape__2 position-absolute"><img src="assets/img/shapes/newsletter-shape-2.png" alt=""></div>
                         <div class="row align-items-center">
                             <div class="col-xl-5">
                                 <div class="sotcox-section-heading sotcox-section-heading__light">
                                     <span class="sub-heading">newsletter</span>
-                                    <h2 class="heading">Subscribe to The Free Newsletter to Receive The Latest News
-                                    </h2>
+                                    <h2 class="heading">Subscribe to The Free Newsletter to Receive The Latest News </h2>
                                 </div>
                             </div>
                             <div class="col-xl-7">
@@ -722,6 +854,7 @@
         </div>
     </footer>
     <!--====== FOOTER END ======-->
+
     <!--========= JS Here =========-->
     <script src="assets/js/jquery-2.2.4.min.js"></script>
     <script src="assets/js/bootstrap.bundle.min.js"></script>
